@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+div{
+    width: 40vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    margin: auto;
+}
+.input{
+    width: calc(40vw - (15px + 1rem));
+    padding: 15px;
+}
+.button{
+    padding: 0.75rem;
+    cursor: pointer;
+}
